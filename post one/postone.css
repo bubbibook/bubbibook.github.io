@@ -1,0 +1,222 @@
+#maintitle{
+  font-size: 50pt;
+  text-align: center;
+
+}
+
+#meettitle{
+  text-align: center;
+  font-size: 30pt;
+  margin:10%;
+}
+
+#logo{
+  position:fixed;
+  text-align: left;
+}
+
+a:hover:after{
+  content: url(https://images.vice.com/vice/images/articles/meta/2014/11/11/what-i-learned-about-sandwiches-from-working-at-greggs-1415714629.jpg?crop=1xw%3A0.75xh%3Bcenter%2Ccenter&resize=2000%3A*);
+  display:block;
+
+}
+
+body{
+  font-family: 'Quicksand', sans-serif;
+  background-color: white;
+}
+
+.navbar{
+  position:fixed;
+  top:2%;
+  right: 70px;
+  width: 100%;
+  text-align: right;
+  font-family: 'Times';
+}
+
+.navbar a{
+  text-decoration: none;
+  padding: 0.25%;
+  color:black;
+  opacity: .75;
+}
+
+.navbar a:hover{
+  color:red;
+}
+
+hr{
+  width: 45%;
+  margin-top:8%;
+  margin-bottom:5%;
+}
+
+.intro{
+  font-family: Quicksand;
+  font-style: italic;
+  display: block;
+  max-width: 50%;
+  margin-left:25%;
+  margin-top: 5%;
+}
+
+.meet{
+max-width:100%;
+}
+
+.meet img{
+  width:100%;
+  height:auto;
+}
+
+#title{
+  transform: rotate(-20deg);
+  line-height: 50px;
+  display: flex;
+  margin-left: 15%;
+  font-size: 45pt;
+}
+
+#bigpic {
+  width:100%;
+  overflow:scroll;
+  margin-top:5%;
+  margin-bottom:5%;
+
+}
+
+#bigpic img{
+  width:100%;
+}
+
+#Nick{
+  display:flex;
+}
+
+#Nick img{
+max-height: 400px;
+width:auto;
+}
+
+#Clement{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#Clement img{
+max-height:400px;
+width:auto;
+}
+
+#Dillon{
+  display:flex;
+}
+
+#Dillon img{
+max-height: 400px;
+width:auto;
+}
+
+#Bennett{
+  display:flex;
+  flex-direction: row-reverse;
+
+}
+
+#Bennett img{
+  max-height:400px;
+  width:auto:
+}
+
+#description{
+  margin-top: 10%;
+}
+
+#name{
+  transform: rotate(-30deg);
+}
+
+#age{
+  transform:rotate(-15deg);
+  margin-top:15%;
+  margin-left: 5%;
+}
+
+#home{
+margin-top:15%;
+margin-left:10%;
+
+}
+
+#food{
+  transform: rotate(15deg);
+  margin-top:15%;
+  margin-left:10%;
+
+}
+
+#nameleft{
+  transform: rotate(40deg);
+  text-align: right;
+}
+
+#ageleft{
+  transform:rotate(15deg);
+  margin-top:18%;
+  margin-right:15%;
+  text-align: right;
+
+}
+
+#homeleft{
+margin-top:15%;
+text-align: right;
+margin-right:10%;
+
+}
+
+#foodleft{
+  transform: rotate(-15deg);
+  margin-top:15%;
+  text-align: right;
+  margin-right:10%;
+
+
+}
+
+
+
+#bighead img{
+  max-height: 250px;
+  width:auto;
+}
+
+.day{
+  max-width: 60%;
+  height:auto;
+  margin-left:20%;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 20px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
+
+.backgroundimage{
+  position:absolute;
+}
+
+.backgroundimage img{
+  width:100%;
+  z-index: -5;
+}
+
+
+.block{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  font-size: 16px;
+}
