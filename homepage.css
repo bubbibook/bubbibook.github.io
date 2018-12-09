@@ -10,6 +10,7 @@ html, body {
 }
 body {
   background-color: #f1a09e;
+  font-family: 'Quicksand';
 }
 
 
@@ -35,7 +36,7 @@ a{
   right: 70px;
   width: 100%;
   text-align: right;
-  
+
 }
 
 .navbar a{
