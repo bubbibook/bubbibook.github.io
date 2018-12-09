@@ -17,8 +17,18 @@ a{
   text-decoration: none;
 }
 
+#logo{
+  position:fixed;
+  text-align: left;
+
+}
+
+#logo img{
+  height:70px;
+}
+
 .directions{
-  margin-left: 5%;
+  margin-left: 15%;
   margin-top: 2%;
   margin-bottom: 0;
   color:#f1a09e;

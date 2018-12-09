@@ -16,6 +16,9 @@ a{
 #logo{
   position:fixed;
   text-align: left;
+  margin-left: .5%;
+  margin-top: 2%;
+  z-index: 100;
 
 }
 

@@ -16,7 +16,17 @@ a{
   text-decoration: none;
 }
 
+#logo{
+  position:fixed;
+  text-align: left;
+  margin-left: 5%;
+  opacity:1;
 
+}
+
+#logo img{
+  height:70px;
+}
 
 .navbar{
   position:fixed;
