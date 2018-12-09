@@ -13,13 +13,14 @@
 #logo{
   position:fixed;
   text-align: left;
-}
-
-a:hover:after{
-  content: url(https://images.vice.com/vice/images/articles/meta/2014/11/11/what-i-learned-about-sandwiches-from-working-at-greggs-1415714629.jpg?crop=1xw%3A0.75xh%3Bcenter%2Ccenter&resize=2000%3A*);
-  display:block;
 
 }
+
+#logo img{
+  height:70px;
+}
+
+
 
 body{
   font-family: 'Quicksand', sans-serif;
