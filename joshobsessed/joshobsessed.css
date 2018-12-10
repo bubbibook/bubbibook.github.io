@@ -50,6 +50,7 @@ a{
 
 .navbar a:hover{
   color:red;
+  opacity:1;
 }
 
 .joshphoto{
@@ -74,4 +75,13 @@ a{
 .title{
   font-size: 24pt;
   line-height: 28pt;
+}
+
+.footer{
+  width:100%;
+  height:auto;
+}
+
+.footer img{
+  width:100%;
 }

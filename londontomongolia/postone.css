@@ -44,7 +44,7 @@ body{
 }
 
 .navbar a:hover{
-  color:red;
+  color:#f1a09e;
 }
 
 hr{
@@ -85,6 +85,10 @@ max-width:100%;
   margin-top:5%;
   margin-bottom:5%;
 
+}
+
+#bigpic.special{
+  margin:0;
 }
 
 #bigpic img{
@@ -220,4 +224,14 @@ margin-right:10%;
   position: relative;
   overflow: hidden;
   font-size: 16px;
+}
+
+.footer{
+  width:100%;
+  height:auto;
+  background-color: #f1a09e;
+}
+
+.footer img{
+  width:100%;
 }
