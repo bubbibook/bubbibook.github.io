@@ -124,7 +124,7 @@ $hrSize: 5px;
   background: #f1a09e;
   position: relative;
   //margin-top: -($pageTopDecrease);
-  height: 670.45%;
+  height: 700.45%;
   top: 100%;
 }
 
@@ -229,6 +229,15 @@ margin-top: 10%;
 }
 .joescoolday img{
   height:500px;
+}
+
+.footer{
+  width:100%;
+  height:auto;
+}
+
+.footer img{
+  width:100%;
 }
 
 
