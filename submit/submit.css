@@ -28,6 +28,7 @@ a{
 
 .page{
   display: flex;
+  margin-bottom: 10%;
 }
 
 .container{
@@ -91,4 +92,13 @@ a{
 
 .text a:hover{
   color:navy;
+}
+
+.footer{
+  width:100%;
+  height:auto;
+}
+
+.footer img{
+  width:100%;
 }
