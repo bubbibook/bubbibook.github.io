@@ -34,7 +34,7 @@ a{
 .navbar{
   position:fixed;
   top:2%;
-  right: 70px;
+  right: 2%;;
   width: 100%;
   text-align: right;
   font-family: 'Quicksand';
@@ -60,7 +60,7 @@ a{
 
 .text{
   width:50%;
-  margin-left: 27%;
+  margin-left: 25%;
   margin-top:10%;
   margin-bottom:20%;
   font-family: 'Quicksand';
