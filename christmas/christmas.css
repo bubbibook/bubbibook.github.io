@@ -46,11 +46,12 @@ a{
   text-decoration: none;
   padding: 0.25%;
   color:white;
-  opacity: .75;
+  opacity: 1;
 }
 
 .navbar a:hover{
   color:red;
+
 }
 
 .player{
@@ -83,11 +84,20 @@ audio{
 
 
 #signature{
-  margin-bottom: 35%;
+  margin-bottom: 20%;
   text-align: center;
 
 }
 
 a:hover{
   color:white;
+}
+
+.footer{
+  width:100%;
+  height:auto;
+}
+
+.footer img{
+  width:100%;
 }
