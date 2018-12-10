@@ -32,7 +32,7 @@ a{
   margin-top: 2%;
   margin-bottom: 0;
   color:#f1a09e;
-  opacity:0.275;
+  opacity:0.75;
 }
 
 .directions:hover{
@@ -61,6 +61,7 @@ a{
 
 .everything{
   margin-top: 0;
+  margin-bottom: 40%;
 }
 
 * {box-sizing:border-box}
@@ -133,6 +134,15 @@ a{
 
 .active, .dot:hover {
   background-color: #717171;
+}
+
+.footer{
+  width:100%;
+  height:auto;
+}
+
+.footer img{
+  width:100%;
 }
 
 /* Fading animation */
