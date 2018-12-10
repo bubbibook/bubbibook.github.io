@@ -41,7 +41,7 @@ a{
   text-decoration: none;
   padding: 0.25%;
   color:white;
-  opacity: .75;
+  
 }
 
 .navbar a:hover{
@@ -61,8 +61,17 @@ a{
 }
 
 .text{
-  margin-left:10%;
+  margin-left:42%;
   margin-top: 2%;
   margin-bottom: 5%;
   font-family: 'Quicksand';
+}
+
+.footer{
+  width:100%;
+  height:auto;
+}
+
+.footer img{
+  width:100%;
 }
