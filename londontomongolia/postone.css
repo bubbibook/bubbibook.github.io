@@ -13,6 +13,7 @@
 #logo{
   position:fixed;
   text-align: left;
+  z-index: 501;
 
 }
 
