@@ -139,6 +139,11 @@ margin-top: 2%;
 .notefromjoe img{
   height:450px;
 }
+
+.notefromjoe img:hover{
+  transform: rotate(25deg);
+}
+
 .londontomongolia{
   margin-left: 22%;
   margin-top:2%;
