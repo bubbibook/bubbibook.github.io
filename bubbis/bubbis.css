@@ -44,7 +44,6 @@ a{
 }
 
 
-
 .text{
   margin-left: 30%;
   font-size: 30pt;
@@ -73,12 +72,12 @@ a{
 }
 
 .text a{
-  color:red;
+  color:white;
   text-decoration: none;
 }
 
 .text a:hover{
-  color:navy;
+  color:red;
 }
 
 .footer{
