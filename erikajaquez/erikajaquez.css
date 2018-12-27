@@ -1,0 +1,95 @@
+
+
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f1a09e;
+  font-family: 'Quicksand';
+}
+
+
+a{
+  text-decoration: none;
+}
+
+h1{
+  text-align: center;
+  color:white;
+}
+
+.navbar{
+  position:fixed;
+  top:2%;
+  right: 2%;
+  width: 100%;
+  text-align: right;
+
+}
+
+.navbar a{
+  text-decoration: none;
+  padding: 0.25%;
+  color:white;
+  opacity: .75;
+}
+
+.navbar a:hover{
+  color:red;
+}
+
+.longstoryshort{
+margin-left: 43%;
+margin-top: 3%;
+}
+.longstoryshort img{
+  height:650px;
+}
+.longstoryshort img:hover{
+  transform: rotate(-25deg);
+}
+
+.pokemon{
+margin-left: 30%;
+margin-top: 5%;
+margin-bottom: 5%;
+}
+
+.pokemon img{
+  height:450px;
+}
+
+.pokemon img:hover{
+  -webkit-animation:spin 0.5s linear ;
+    -moz-animation:spin 0.5s linear ;
+    animation:spin 0.5s linear ;
+}
+
+.erikasmusicjourney{
+  margin-left: 40%;
+
+}
+
+.erikasmusicjourney img{
+  height:475px;
+}
+
+.erikasmusicjourney img:hover{
+  transform: rotate(45deg);
+}
+
+.footer{
+  width:100%;
+  height:auto;
+}
+
+.footer img{
+  width:100%;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
