@@ -90,6 +90,19 @@ margin-bottom: 5%;
   width:100%;
 }
 
+.joshisobsessed{
+  margin-left: 32%;
+  margin-right:15%;
+  margin-top: 5%;
+}
+.joshisobsessed img{
+  height:500px;
+  -webkit-animation:spin 15s linear infinite;
+    -moz-animation:spin 15s linear infinite;
+    animation:spin 15s linear infinite;
+}
+
+
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
