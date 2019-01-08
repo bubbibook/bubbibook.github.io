@@ -1,0 +1,167 @@
+
+
+#logo{
+  position:fixed;
+  text-align: left;
+  z-index: 501;
+
+}
+
+#logo img{
+  height:70px;
+}
+
+#maintitle{
+  font-size: 50pt;
+  text-align: center;
+}
+
+hr{
+  width: 45%;
+  margin-top:5%;
+  margin-bottom:3%;
+}
+
+body{
+  font-family: 'Quicksand', sans-serif;
+  background-color: white;
+}
+
+
+.navbar{
+  position:fixed;
+  top:2%;
+  right: 2%;
+  width: 100%;
+  text-align: right;
+  font-family: 'Quicksand';
+  z-index: 500;
+}
+
+.navbar a{
+  text-decoration: none;
+  padding: 0.25%;
+  color:black;
+  opacity: .75;
+}
+
+.navbar a:hover{
+  color:#f1a09e;
+}
+
+.container{
+  display: flex;
+  width:95%;
+  margin-left: 2.5%;
+
+}
+
+.photosleft{
+width:20%;
+margin-top: 5%;
+}
+
+#dillonbighead{
+  height:400px;
+  margin-top: 30px;
+}
+#nickbighead{
+  height:400px;
+  margin-top: 500%;
+}
+#clementbighead{
+  height:400px;
+  margin-top: 810%;
+}
+#bennettbighead{
+  height:400px;
+  margin-top:2900%;
+}
+
+
+#password{
+  width:150px;
+  margin-top: 800%;
+  margin-left: 5%;
+}
+#pendant{
+  width:150px;
+  margin-top: 710%;
+  margin-left: 25%;
+}
+
+#tracksuit{
+  width:200px;
+  margin-top: 1100%;
+}
+
+#monument{
+  width:250px;
+  margin-top: 2090%;
+}
+
+#goodtime{
+  width:230px;
+  margin-top: 2080%;
+}
+
+.photosright{
+width:20%;
+margin-top: 5%;
+
+}
+
+#sleepingdog{
+  width:200px;
+  margin-left: 15%;
+  margin-top: 865%;
+}
+
+#soccerball{
+  width:240px;
+  margin-top: 300%;
+  margin-left: 15%;
+}
+
+#beer{
+  width:200px;
+  margin-top: 1400%;
+  margin-left: 20%;
+}
+
+#plovdiv{
+  width:275px;
+  margin-top: 1500%;
+  margin-left: 5%;
+}
+
+#stamp{
+  height:200px;
+  margin-top: 4130%;
+  margin-left: 8%;
+
+}
+
+#backgammon{
+  height:300px;
+  margin-top: 2740%;
+}
+
+.bodytext{
+width:60%;
+margin-top: 5%;
+}
+
+.bodytext img{
+  width: 100%;
+}
+
+.footer{
+  width:100%;
+  height:auto;
+
+}
+
+.footer img{
+  width:100%;
+}
