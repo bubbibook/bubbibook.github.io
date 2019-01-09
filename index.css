@@ -132,6 +132,17 @@ $hrSize: 5px;
   display:flex;
 }
 
+.launchparty{
+  margin-left: 35%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.launchparty img{
+  width:500px;
+
+}
+
 .londontomongolia2{
   margin-left: 10%;
   margin-top:2%;
