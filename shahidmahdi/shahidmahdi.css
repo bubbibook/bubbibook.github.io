@@ -1,0 +1,62 @@
+
+
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f1a09e;
+  font-family: 'Quicksand';
+}
+
+
+a{
+  text-decoration: none;
+}
+
+h1{
+  text-align: center;
+  color:white;
+}
+
+.navbar{
+  position:fixed;
+  top:2%;
+  right: 2%;
+  width: 100%;
+  text-align: right;
+
+}
+
+.navbar a{
+  text-decoration: none;
+  padding: 0.25%;
+  color:white;
+  opacity: .75;
+}
+
+.navbar a:hover{
+  color:red;
+}
+
+.stmarks{
+margin-left: 32%;
+margin-top: 2%;
+margin-bottom: 5%;
+}
+
+.stmarks img{
+height:500px;
+}
+
+
+.footer{
+  width:100%;
+  height:auto;
+}
+
+.footer img{
+  width:100%;
+}
