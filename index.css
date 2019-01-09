@@ -288,6 +288,39 @@ margin-top: 10%;
   width:100%;
 }
 
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 1227px){
+/* CSS Styles */
+body {
+  background-color: #f1a09e;
+  font-family: 'Quicksand';
+}
+#pageHr {
+  background: $hrColor;
+  position: relative;
+  height: $hrSize;
+  z-index: 1;
+
+}
+
+#page {
+  //border-top: $pageTopDecrease solid $hrColor;
+  position: absolute;
+  //margin-top: -($pageTopDecrease);
+  height: 960%;
+  top: 100%;
+}
+
+.footer img{
+  opacity: 0;
+}
+
+.couple{
+  display: block;
+}
+
+}
 
 
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
