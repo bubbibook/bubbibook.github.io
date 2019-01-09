@@ -53,14 +53,20 @@ h1{
   color:red;
 }
 
-.stmarks{
-margin-left: 32%;
-margin-top: 2%;
-margin-bottom: 5%;
+.londontomongolia{
+  margin-left: 25%;
+  margin-top:2%;
+  margin-bottom:5%;
 }
 
-.stmarks img{
-height:500px;
+.londontomongolia2{
+  margin-left: 20%;
+  margin-top:2%;
+  margin-bottom:5%;
+}
+
+.londontomongolia2 img{
+  height:400px;
 }
 
 
