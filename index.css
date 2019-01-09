@@ -124,7 +124,7 @@ $hrSize: 5px;
   background: #f1a09e;
   position: relative;
   //margin-top: -($pageTopDecrease);
-  height: 975%;
+  height: 1000%;
   top: 100%;
 }
 
@@ -281,6 +281,7 @@ margin-top: 10%;
 .footer{
   width:100%;
   height:auto;
+  margin-bottom: 0px;
 }
 
 .footer img{
