@@ -124,12 +124,42 @@ $hrSize: 5px;
   background: #f1a09e;
   position: relative;
   //margin-top: -($pageTopDecrease);
-  height: 700.45%;
+  height: 975%;
   top: 100%;
 }
 
 .couple{
   display:flex;
+}
+
+.londontomongolia2{
+  margin-left: 10%;
+  margin-top:2%;
+}
+
+.londontomongolia2 img{
+  height:400px;
+}
+
+.stmarks{
+margin-left: 10%;
+margin-top: 6%;
+}
+
+.stmarks img{
+height:500px;
+}
+
+.dillonobsessed{
+margin-left: 35%;
+margin-bottom: 3%;
+}
+
+.dillonobsessed img{
+  height:500px;
+  -webkit-animation:spin 15s linear infinite;
+    -moz-animation:spin 15s linear infinite;
+    animation:spin 15s linear infinite;
 }
 
 .notefromjoe{
