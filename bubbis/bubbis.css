@@ -45,11 +45,20 @@ a{
 
 
 .text{
-  margin-left: 30%;
+  margin-left: 10%;
   font-size: 30pt;
   margin-top: 10%;
   width:50%;
   color:white;
+}
+
+.image{
+margin-left: 10%;
+margin-top: 10%;
+}
+
+.image img{
+  width:520px;
 }
 
 .navbar{
