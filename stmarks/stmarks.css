@@ -1,0 +1,83 @@
+body{
+  font-family: 'Quicksand';
+}
+
+a{
+  text-decoration: none;
+}
+
+#logo{
+  position:fixed;
+  text-align: left;
+  margin-left: 1%;
+  margin-top: 1%
+
+}
+
+#logo img{
+  height:70px;
+}
+
+
+.navbar{
+  position:fixed;
+  top:2%;
+  right: 2%;
+  width: 100%;
+  text-align: right;
+  font-family: 'Quicksand';
+}
+
+.navbar a{
+  text-decoration: none;
+  padding: 0.25%;
+  color:black;
+
+}
+
+.navbar a:hover{
+  color:pink;
+  opacity:1;
+}
+
+.title{
+  font-size: 24pt;
+  line-height: 28pt;
+  text-align: center;
+  margin-top: 08%;
+}
+
+.subtitle{
+  font-size: 24pt;
+  line-height: 28pt;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.footer{
+  width:100%;
+  height:auto;
+}
+
+.footer img{
+  width:100%;
+}
+
+
+.text{
+  line-height: 18pt;
+  width: 62%;
+  margin: 0 auto;
+
+}
+
+.text img{
+  width:100%;
+  text-align: center;
+}
+
+#signature{
+  margin-bottom: 20%;
+  text-align: center;
+
+}
