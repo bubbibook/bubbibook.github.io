@@ -1,5 +1,6 @@
 body{
   font-family: 'Quicksand';
+  background-color: #f1a09e;
 }
 
 a{
@@ -31,23 +32,13 @@ a{
 .navbar a{
   text-decoration: none;
   padding: 0.25%;
-  color:black;
+  color: white;
 
 }
 
 .navbar a:hover{
-  color:pink;
+  color:red;
   opacity:1;
-}
-
-a{
-  text-decoration: none;
-  color:black;
-  opacity: 0.65;
-}
-a:hover{
-  color:pink;
-
 }
 
 .title{
@@ -55,13 +46,7 @@ a:hover{
   line-height: 28pt;
   text-align: center;
   margin-top: 08%;
-}
-
-.subtitle{
-  font-size: 24pt;
-  line-height: 28pt;
-  text-align: center;
-  margin-bottom: 2%;
+  color:white;
 }
 
 .footer{
