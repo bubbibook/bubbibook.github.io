@@ -132,6 +132,44 @@ $hrSize: 5px;
   display:flex;
 }
 
+.bubbiradio2{
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: 5%;
+}
+
+.bubbiradio2 img{
+  width:450px;
+}
+
+.jumping{
+margin-top: 12%;
+margin-left: 5%;
+}
+
+.jumping img{
+  width:350px;
+}
+
+.jumping img:hover{
+  -webkit-animation:spin 0.5s linear ;
+    -moz-animation:spin 0.5s linear ;
+    animation:spin 0.5s linear ;
+}
+
+.you{
+margin-left: 10%;
+margin-right: 15%;
+}
+
+.you img{
+  width:400px;
+}
+
+.you img:hover{
+  transform: rotate(25deg);
+}
+
 .launchparty{
   margin-left: 35%;
   margin-top: 10%;
