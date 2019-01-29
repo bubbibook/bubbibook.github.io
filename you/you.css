@@ -9,7 +9,7 @@ a{
 #logo{
   position:fixed;
   text-align: left;
-  margin-left: 1%;
+  margin-left: 3%;
   margin-top: 1%
 
 }
@@ -40,18 +40,35 @@ a{
   opacity:1;
 }
 
+a{
+  text-decoration: none;
+  color:black;
+  opacity: 1;
+}
+a:hover{
+  color:pink;
+
+}
+
 .title{
   font-size: 24pt;
   line-height: 28pt;
   text-align: center;
-  margin-top: 08%;
+  margin-top: 8%;
 }
 
 .subtitle{
   font-size: 24pt;
   line-height: 28pt;
   text-align: center;
-  margin-bottom: 2%;
+  margin-bottom: 0;
+}
+
+#illus{
+text-align: center;
+margin-bottom: 0;
+margin-top: 0;
+color:grey;
 }
 
 .footer{
@@ -66,12 +83,12 @@ a{
 
 .text{
   line-height: 18pt;
-  width: 50%;
+  width: 62%;
   margin: 0 auto;
 
 }
 
-#image{
+.text img{
   width:100%;
   text-align: center;
 }
