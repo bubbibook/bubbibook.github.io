@@ -132,6 +132,22 @@ $hrSize: 5px;
   display:flex;
 }
 
+.bubbiradio3{
+
+}
+.bubbiradio3 img{
+  width:40%;
+  margin-left: 28%;
+  margin-top: 5%;
+  margin-bottom: 7%;
+}
+
+.livletters img{
+  width:55%;
+  margin-left: 19%;
+  margin-top: 3%;
+}
+
 .bubbiradio2{
   text-align: center;
   margin-top: 8%;
