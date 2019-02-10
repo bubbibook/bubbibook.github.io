@@ -1,0 +1,121 @@
+
+
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f1a09e;
+  font-family: 'Quicksand';
+}
+
+#logo{
+  position:fixed;
+  text-align: left;
+  margin-left: .5%;
+  margin-top: 2%;
+  z-index: 100;
+
+}
+
+#logo img{
+  height:70px;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+h1{
+  text-align: center;
+  color:white;
+}
+
+.navbar{
+  position:fixed;
+  top:2%;
+  right: 2%;
+  width: 100%;
+  text-align: right;
+
+}
+
+.navbar a{
+  text-decoration: none;
+  padding: 0.25%;
+  color:white;
+  opacity: .75;
+}
+
+.navbar a:hover{
+  color:red;
+}
+
+.longstoryshort{
+margin-left: 43%;
+margin-top: 3%;
+}
+.longstoryshort img{
+  height:650px;
+}
+.longstoryshort img:hover{
+  transform: rotate(-25deg);
+}
+
+.pokemon{
+margin-left: 30%;
+margin-top: 5%;
+margin-bottom: 5%;
+}
+
+.pokemon img{
+  height:450px;
+}
+
+.pokemon img:hover{
+  -webkit-animation:spin 0.5s linear ;
+    -moz-animation:spin 0.5s linear ;
+    animation:spin 0.5s linear ;
+}
+
+.erikasmusicjourney{
+  margin-left: 40%;
+
+}
+
+.erikasmusicjourney img{
+  height:475px;
+}
+
+.erikasmusicjourney img:hover{
+  transform: rotate(45deg);
+}
+
+.footer{
+  width:100%;
+  height:auto;
+}
+
+.footer img{
+  width:100%;
+}
+
+.joshisobsessed{
+  margin-left: 32%;
+  margin-right:15%;
+  margin-top: 5%;
+}
+.joshisobsessed img{
+  height:500px;
+  -webkit-animation:spin 15s linear infinite;
+    -moz-animation:spin 15s linear infinite;
+    animation:spin 15s linear infinite;
+}
+
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

@@ -1,0 +1,81 @@
+
+
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f1a09e;
+  font-family: 'Quicksand';
+}
+
+#logo{
+  position:fixed;
+  text-align: left;
+  margin-left: .5%;
+  margin-top: 2%;
+  z-index: 100;
+
+}
+
+#logo img{
+  height:70px;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+h1{
+  text-align: center;
+  color:white;
+}
+
+.navbar{
+  position:fixed;
+  top:2%;
+  right: 2%;
+  width: 100%;
+  text-align: right;
+
+}
+
+.navbar a{
+  text-decoration: none;
+  padding: 0.25%;
+  color:white;
+  opacity: .75;
+}
+
+.navbar a:hover{
+  color:red;
+}
+
+
+
+.footer{
+  width:100%;
+  height:auto;
+}
+
+.footer img{
+  width:100%;
+}
+
+.redvelvet{
+  margin-left: 32%;
+  margin-right:15%;
+  margin-top: 5%;
+}
+.redvelvet img{
+  height:500px;
+
+}
+
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
