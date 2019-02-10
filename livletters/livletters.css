@@ -18,6 +18,9 @@ a{
   height:70px;
 }
 
+iframe{
+  margin-left: 15%;
+}
 
 .navbar{
   position:fixed;
