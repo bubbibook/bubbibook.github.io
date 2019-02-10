@@ -1,0 +1,124 @@
+body{
+  font-family: 'Quicksand';
+  background-color: #f1a09e;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+
+}
+a img{
+  width: 50%;
+}
+
+#logo{
+  position:fixed;
+  text-align: left;
+  margin-left: 3%;
+  margin-top: 1%
+
+}
+
+#stamp{
+  width: 75%;
+}
+
+#logo img{
+  height:70px;
+}
+
+
+.navbar{
+  position:fixed;
+  top:2%;
+  right: 2%;
+  width: 100%;
+  text-align: right;
+  font-family: 'Quicksand';
+  color: white;
+}
+
+.navbar a{
+  text-decoration: none;
+  padding: 0.25%;
+  color:white;;
+
+}
+
+.navbar a:hover{
+  color:red;
+  opacity:1;
+}
+
+a{
+  text-decoration: none;
+  color:white;
+  opacity: 1;
+}
+a:hover{
+  color:red;
+
+}
+
+.title{
+  font-size: 24pt;
+  line-height: 28pt;
+  text-align: center;
+  margin-top: 08%;
+}
+
+.subtitle{
+  font-size: 24pt;
+  line-height: 28pt;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.footer{
+  width:100%;
+  height:auto;
+}
+
+.footer img{
+  width:100%;
+}
+
+
+.text{
+  line-height: 25pt;
+  width: 62%;
+  margin: 0 auto;
+  font-size: 22pt;
+
+}
+
+.text img{
+  width:100%;
+  text-align: center;
+}
+
+.container{
+  display: flex;
+}
+
+.block2{
+  margin-top: 15%;
+}
+
+#livletters{
+  text-align: center;
+  margin-left: 30%;
+}
+#signature{
+  margin-bottom: 20%;
+  text-align: center;
+
+}
+
+#cake {
+  width: 65%;
+  margin-left: 15%;
+}
+
+}
