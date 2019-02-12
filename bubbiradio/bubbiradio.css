@@ -1,0 +1,108 @@
+
+
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f1a09e;
+  font-family: 'Quicksand';
+}
+
+#logo{
+  position:fixed;
+  text-align: left;
+  margin-left: .5%;
+  margin-top: 2%;
+  z-index: 100;
+
+}
+
+#logo img{
+  height:70px;
+}
+
+
+a{
+  text-decoration: none;
+  color:white;
+
+}
+
+a:hover{
+  color:navy;
+}
+
+
+
+h1{
+  text-align: center;
+  color:white;
+}
+
+.navbar{
+  position:fixed;
+  top:2%;
+  right: 2%;
+  width: 100%;
+  text-align: right;
+
+}
+
+.navbar a{
+  text-decoration: none;
+  padding: 0.25%;
+  color:white;
+  opacity: .75;
+}
+
+.navbar a:hover{
+  color:red;
+}
+
+.container{
+  text-align: center;
+}
+
+.container img{
+  width:40%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.one{
+  margin-top: 7%;
+}
+.two{
+  margin-top: 7%;
+
+}
+.three{
+  margin-top: 2%;
+
+}
+.footer{
+  width:100%;
+  height:auto;
+}
+
+.footer img{
+  width:100%;
+}
+
+.redvelvet{
+  margin-left: 32%;
+  margin-right:15%;
+  margin-top: 5%;
+}
+.redvelvet img{
+  height:500px;
+
+}
+
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
