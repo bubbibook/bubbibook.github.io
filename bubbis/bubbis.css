@@ -4,7 +4,7 @@ html, body {
   margin: 0;
 }
 body {
-  background-color: #f1a09e;
+  background-color: #a1cfff;
   font-family: 'Quicksand';
 }
 
@@ -73,12 +73,16 @@ margin-top: 10%;
   text-decoration: none;
   padding: 0.25%;
   color:white;
-  opacity: .75;
 }
 
 .navbar a:hover{
   color:red;
 }
+
+#vol1mark{
+  width:4%;
+}
+
 
 .text a{
   color:white;

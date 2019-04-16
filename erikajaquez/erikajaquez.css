@@ -46,7 +46,10 @@ h1{
   text-decoration: none;
   padding: 0.25%;
   color:white;
-  opacity: .75;
+}
+
+#vol1mark{
+  width:4%;
 }
 
 .navbar a:hover{

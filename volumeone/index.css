@@ -1,0 +1,382 @@
+
+
+ @import "compass/css3";
+
+
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #f1a09e;
+  font-family: 'Quicksand';
+}
+
+
+a{
+  text-decoration: none;
+}
+
+#header {
+  background: url(https://i.imgur.com/mr5Wp96.jpg) no-repeat center top;
+  background-size: cover;
+  position: fixed;
+  height: 100%;
+  bottom: 70px;
+  right: 70px;
+  left: 70px;
+  top: 70px;
+}
+
+
+.navbar{
+  position:fixed;
+  top:2%;
+  right: 4.5%;
+  width: 100%;
+  text-align: right;
+
+}
+
+.navbar a{
+  text-decoration: none;
+  padding: 0.25%;
+  color:white;
+  opacity: .75;
+}
+
+.navbar a:hover{
+  color:red;
+}
+
+
+  .center {
+    background: rgba(0,0,0,0.15);
+    text-align: center;
+    position: absolute;
+    color: #f1a09e;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+  }
+
+    .middle {
+      position: absolute;
+
+      right: 0;
+      left: 0;
+      top:0;
+    }
+  }
+
+.middle img{
+  margin-top: 15px;
+}
+
+
+$pageTopDecrease: 20px;
+$hrBoxBorderLength: 40px;
+$hrBgColor: #48CFAD;
+$hrColor: #FFFFFF;
+$hrSize: 5px;
+
+#pageHr {
+  background: $hrColor;
+  position: relative;
+  height: $hrSize;
+  display: flex;
+  right: 0px;
+  left: 0px;
+  top: 90%;
+  z-index: 1;
+
+  > i {
+    margin: -($hrBoxBorderLength/2+$hrSize);
+    border: $hrSize solid $hrColor;
+    height: $hrBoxBorderLength;
+    width: $hrBoxBorderLength;
+    background: $hrBgColor;
+    position: absolute;
+    display: block;
+    left: 50%;
+    top: 50%;
+    @include transform(rotate(45deg));
+
+    > i {
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+      line-height: $hrBoxBorderLength*0.92;
+      font-size: $hrBoxBorderLength/2;
+      height: $hrBoxBorderLength;
+      width: $hrBoxBorderLength;
+      text-align: center;
+      position: absolute;
+      color: $hrColor;
+      display: block;
+      @include transform(rotate(-45deg));
+    }
+  }
+}
+
+#page {
+  //border-top: $pageTopDecrease solid $hrColor;
+  background: #f1a09e;
+  position: relative;
+  //margin-top: -($pageTopDecrease);
+  height: 1350%;
+  top: 100%;
+}
+
+.couple{
+  display:flex;
+}
+
+.bubbiradio3{
+
+}
+.bubbiradio3 img{
+  width:40%;
+  margin-left: 28%;
+  margin-top: 5%;
+  margin-bottom: 7%;
+}
+
+.livletters img{
+  width:55%;
+  margin-left: 19%;
+  margin-top: 3%;
+}
+
+.bubbiradio2{
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: 5%;
+}
+
+.bubbiradio2 img{
+  width:450px;
+}
+
+.jumping{
+margin-top: 12%;
+margin-left: 5%;
+}
+
+.jumping img{
+  width:350px;
+}
+
+.jumping img:hover{
+  -webkit-animation:spin 0.5s linear ;
+    -moz-animation:spin 0.5s linear ;
+    animation:spin 0.5s linear ;
+}
+
+.you{
+margin-left: 10%;
+margin-right: 15%;
+}
+
+.you img{
+  width:400px;
+}
+
+.you img:hover{
+  transform: rotate(25deg);
+}
+
+.launchparty{
+  margin-left: 35%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.launchparty img{
+  width:500px;
+
+}
+
+.londontomongolia2{
+  margin-left: 10%;
+  margin-top:2%;
+}
+
+.londontomongolia2 img{
+  height:400px;
+}
+
+.stmarks{
+margin-left: 10%;
+margin-top: 6%;
+}
+
+.stmarks img{
+height:500px;
+}
+
+.dillonobsessed{
+margin-left: 35%;
+margin-bottom: 3%;
+}
+
+.dillonobsessed img{
+  height:500px;
+  -webkit-animation:spin 15s linear infinite;
+    -moz-animation:spin 15s linear infinite;
+    animation:spin 15s linear infinite;
+}
+
+.notefromjoe{
+margin-left: 30%;
+margin-top: 2%;
+margin-bottom: 10%;
+}
+.notefromjoe img{
+  height:450px;
+}
+
+.notefromjoe img:hover{
+  transform: rotate(25deg);
+}
+
+.londontomongolia{
+  margin-left: 22%;
+  margin-top:2%;
+  margin-bottom:5%;
+}
+
+.joshisobsessed{
+  margin-left: 5%;
+  margin-right:15%;
+  margin-top: 8%;
+}
+.joshisobsessed img{
+  height:500px;
+  -webkit-animation:spin 15s linear infinite;
+    -moz-animation:spin 15s linear infinite;
+    animation:spin 15s linear infinite;
+}
+
+.ohcool{
+
+}
+
+.ohcool img{
+  height:500px;
+}
+
+.maras{
+margin-left: 12%;
+}
+
+.maras img{
+  height:600px;
+}
+
+.longstoryshort{
+margin-left: 18%;
+margin-top: 8%;
+}
+.longstoryshort img{
+  height:650px;
+}
+.longstoryshort img:hover{
+  transform: rotate(-25deg);
+}
+
+.pokemon{
+margin-left: 28%;
+margin-top: 5%;
+margin-bottom: 5%;
+}
+
+.pokemon img{
+  height:450px;
+}
+
+.pokemon img:hover{
+  -webkit-animation:spin 0.5s linear ;
+    -moz-animation:spin 0.5s linear ;
+    animation:spin 0.5s linear ;
+}
+
+
+.thissummer{
+margin-left: 27%;
+margin-top: 5%;
+margin-bottom: 5%;
+}
+.thissummer img{
+
+}
+
+.erikasmusicjourney{
+margin-left: 25%;
+
+}
+
+.erikasmusicjourney img{
+  height:475px;
+}
+
+.erikasmusicjourney img:hover{
+  transform: rotate(45deg);
+}
+
+.joescoolday{
+margin-left:17%;
+margin-top: 10%;
+}
+.joescoolday img{
+  height:500px;
+}
+
+.footer{
+  width:100%;
+  height:auto;
+  margin-bottom: 0%;
+}
+
+.footer img{
+  width:100%;
+}
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 1227px){
+/* CSS Styles */
+body {
+  background-color: #f1a09e;
+  font-family: 'Quicksand';
+}
+#pageHr {
+  background: $hrColor;
+  position: relative;
+  height: $hrSize;
+  z-index: 1;
+
+}
+
+#page {
+  //border-top: $pageTopDecrease solid $hrColor;
+  position: absolute;
+  //margin-top: -($pageTopDecrease);
+  height: 960%;
+  top: 100%;
+}
+
+.footer img{
+  opacity: 0;
+}
+
+.couple{
+  display: block;
+}
+
+}
+
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

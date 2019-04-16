@@ -41,13 +41,15 @@ a{
   text-decoration: none;
   padding: 0.25%;
   color:#e6a3a0;
-  opacity: .75;
 }
 
 .navbar a:hover{
   color:red;
 }
 
+#vol1mark{
+  width:4%;
+}
 
 .squares{
   margin-left: 17%;

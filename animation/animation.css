@@ -19,7 +19,7 @@ a{
 #logo{
   position:fixed;
   text-align: left;
-  margin-left: 5%;
+  margin-left: 7%;
   opacity:1;
 
 }
@@ -30,7 +30,7 @@ a{
 
 .navbar{
   position:fixed;
-  top:2%;
+  top:3%;
   right: 70px;
   width: 100%;
   text-align: right;
@@ -48,9 +48,13 @@ a{
   color:red;
 }
 
+#vol1mark{
+  width:4%;
+}
+
 .longstoryshort{
   height:90%;
-  margin-top: 10%;
+  margin-top: 3%;
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 2%;

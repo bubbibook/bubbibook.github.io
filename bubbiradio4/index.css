@@ -1,0 +1,86 @@
+body{
+  font-family: 'Quicksand';
+  color:white;
+  background-color: #a1cfff;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+#logo{
+  position:fixed;
+  text-align: left;
+  margin-left: 3%;
+  margin-top: 1%
+
+}
+
+#logo img{
+  height:70px;
+}
+
+
+.navbar{
+  position:fixed;
+  top:2%;
+  right: 2%;
+  width: 100%;
+  text-align: right;
+  font-family: 'Quicksand';
+}
+
+.navbar a{
+  text-decoration: none;
+  padding: 0.25%;
+  color:white;
+
+}
+
+
+a:hover{
+  opacity:0.5;
+  transition-timing-function: ease-in;
+  transition: .5s;
+
+}
+
+#vol1mark{
+  width:4%;
+}
+
+.player{
+  text-align: center;
+  margin-top: 8%;
+}
+
+.page{
+  text-align: center;
+}
+
+.songs{
+  text-align: left;
+  margin-left: 35%;
+  font-size: 20pt;
+}
+
+hr{
+  width:20%;
+}
+
+
+.footer{
+  width:100%;
+  height:auto;
+  margin-bottom: 0%;
+}
+
+.footer img{
+  width:100%;
+}
+
+#signature{
+  text-align: center;
+  margin-bottom: 5%;
+}

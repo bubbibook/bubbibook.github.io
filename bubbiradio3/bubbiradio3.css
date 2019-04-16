@@ -73,6 +73,10 @@ hr{
   display: flex;
 }
 
+#vol1mark{
+  width:4%;
+}
+
 h1{
   font-family: 'Quicksand';
   font-size: 40pt;

@@ -47,14 +47,15 @@ h1{
   text-decoration: none;
   padding: 0.25%;
   color:white;
-  opacity: .75;
 }
 
 .navbar a:hover{
   color:red;
 }
 
-
+#vol1mark{
+  width:4%;
+}
 
 .footer{
   width:100%;

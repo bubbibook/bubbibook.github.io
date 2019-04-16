@@ -9,7 +9,7 @@ html, body {
   margin: 0;
 }
 body {
-  background-color: #f1a09e;
+  background-color: #a1cfff;
   font-family: 'Quicksand';
 }
 
@@ -19,14 +19,14 @@ a{
 }
 
 #header {
-  background: url(https://i.imgur.com/mr5Wp96.jpg) no-repeat center top;
-  background-size: cover;
+  background: url(https://i.imgur.com/F5WHkLd.jpg) no-repeat center top;
+  background-size: 100%;
   position: fixed;
-  height: 100%;
+  height:100%;
   bottom: 70px;
   right: 70px;
   left: 70px;
-  top: 70px;
+  top: 50px;
 }
 
 
@@ -43,13 +43,26 @@ a{
   text-decoration: none;
   padding: 0.25%;
   color:white;
-  opacity: .75;
+
 }
+
 
 .navbar a:hover{
-  color:red;
+  opacity:0.5;
+  transition-timing-function: ease-in;
+  transition: .5s;
+
 }
 
+a:hover{
+  opacity:0.85;
+  transition-timing-function: ease-in;
+  transition: .5s;
+}
+
+#vol1mark{
+  width:4%;
+}
 
   .center {
     background: rgba(0,0,0,0.15);
@@ -74,7 +87,6 @@ a{
 .middle img{
   margin-top: 15px;
 }
-
 
 $pageTopDecrease: 20px;
 $hrBoxBorderLength: 40px;
@@ -121,10 +133,10 @@ $hrSize: 5px;
 
 #page {
   //border-top: $pageTopDecrease solid $hrColor;
-  background: #f1a09e;
+  background: #a1cfff;
   position: relative;
   //margin-top: -($pageTopDecrease);
-  height: 1350%;
+  height: auto;
   top: 100%;
 }
 
@@ -132,205 +144,24 @@ $hrSize: 5px;
   display:flex;
 }
 
-.bubbiradio3{
-
-}
-.bubbiradio3 img{
-  width:40%;
-  margin-left: 28%;
-  margin-top: 5%;
-  margin-bottom: 7%;
-}
-
-.livletters img{
-  width:55%;
-  margin-left: 19%;
-  margin-top: 3%;
-}
-
-.bubbiradio2{
-  text-align: center;
-  margin-top: 8%;
-  margin-bottom: 5%;
-}
-
-.bubbiradio2 img{
-  width:450px;
-}
-
-.jumping{
-margin-top: 12%;
-margin-left: 5%;
-}
-
-.jumping img{
-  width:350px;
-}
-
-.jumping img:hover{
-  -webkit-animation:spin 0.5s linear ;
-    -moz-animation:spin 0.5s linear ;
-    animation:spin 0.5s linear ;
-}
-
-.you{
-margin-left: 10%;
-margin-right: 15%;
-}
-
-.you img{
-  width:400px;
-}
-
-.you img:hover{
-  transform: rotate(25deg);
-}
-
-.launchparty{
-  margin-left: 35%;
-  margin-top: 10%;
-  margin-bottom: 5%;
-}
-
-.launchparty img{
-  width:500px;
-
-}
-
-.londontomongolia2{
-  margin-left: 10%;
-  margin-top:2%;
-}
-
-.londontomongolia2 img{
-  height:400px;
-}
-
-.stmarks{
-margin-left: 10%;
-margin-top: 6%;
-}
-
-.stmarks img{
-height:500px;
-}
-
-.dillonobsessed{
+.dionpoems{
 margin-left: 35%;
-margin-bottom: 3%;
-}
-
-.dillonobsessed img{
-  height:500px;
-  -webkit-animation:spin 15s linear infinite;
-    -moz-animation:spin 15s linear infinite;
-    animation:spin 15s linear infinite;
-}
-
-.notefromjoe{
-margin-left: 30%;
-margin-top: 2%;
-margin-bottom: 10%;
-}
-.notefromjoe img{
-  height:450px;
-}
-
-.notefromjoe img:hover{
-  transform: rotate(25deg);
-}
-
-.londontomongolia{
-  margin-left: 22%;
-  margin-top:2%;
-  margin-bottom:5%;
-}
-
-.joshisobsessed{
-  margin-left: 5%;
-  margin-right:15%;
-  margin-top: 8%;
-}
-.joshisobsessed img{
-  height:500px;
-  -webkit-animation:spin 15s linear infinite;
-    -moz-animation:spin 15s linear infinite;
-    animation:spin 15s linear infinite;
-}
-
-.ohcool{
 
 }
 
-.ohcool img{
-  height:500px;
+.bubbiradio4{
+margin-left: 15%;
 }
 
-.maras{
-margin-left: 12%;
+#bubbiradio4img{
+  width:70%;
 }
 
-.maras img{
-  height:600px;
+#dionpoemsimg{
+  width:40%;
+  margin-top: 15%;
 }
 
-.longstoryshort{
-margin-left: 18%;
-margin-top: 8%;
-}
-.longstoryshort img{
-  height:650px;
-}
-.longstoryshort img:hover{
-  transform: rotate(-25deg);
-}
-
-.pokemon{
-margin-left: 28%;
-margin-top: 5%;
-margin-bottom: 5%;
-}
-
-.pokemon img{
-  height:450px;
-}
-
-.pokemon img:hover{
-  -webkit-animation:spin 0.5s linear ;
-    -moz-animation:spin 0.5s linear ;
-    animation:spin 0.5s linear ;
-}
-
-
-.thissummer{
-margin-left: 27%;
-margin-top: 5%;
-margin-bottom: 5%;
-}
-.thissummer img{
-
-}
-
-.erikasmusicjourney{
-margin-left: 25%;
-
-}
-
-.erikasmusicjourney img{
-  height:475px;
-}
-
-.erikasmusicjourney img:hover{
-  transform: rotate(45deg);
-}
-
-.joescoolday{
-margin-left:17%;
-margin-top: 10%;
-}
-.joescoolday img{
-  height:500px;
-}
 
 .footer{
   width:100%;
@@ -342,14 +173,27 @@ margin-top: 10%;
   width:100%;
 }
 
+.kikideesong{
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: 7%;
+}
+
+
+.agarden{
+  margin-left: 15%;
+}
+
+#kikidee{
+  width:45%;
+  margin-left: 8%;
+}
+
 @media only screen
   and (min-device-width: 320px)
   and (max-device-width: 1227px){
 /* CSS Styles */
-body {
-  background-color: #f1a09e;
-  font-family: 'Quicksand';
-}
+
 #pageHr {
   background: $hrColor;
   position: relative;
@@ -370,11 +214,6 @@ body {
   opacity: 0;
 }
 
-.couple{
-  display: block;
-}
-
-}
 
 
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }

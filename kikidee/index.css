@@ -1,0 +1,82 @@
+body{
+  font-family: 'Quicksand';
+}
+
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+#logo{
+  position:fixed;
+  text-align: left;
+  margin-left: 3%;
+  margin-top: 1%
+
+}
+
+#logo img{
+  height:70px;
+}
+
+
+.navbar{
+  position:fixed;
+  top:2%;
+  right: 2%;
+  width: 100%;
+  text-align: right;
+  font-family: 'Quicksand';
+}
+
+.navbar a{
+  text-decoration: none;
+  padding: 0.25%;
+
+}
+
+a:hover{
+  opacity:0.5;
+  transition-timing-function: ease-in;
+  transition: .5s;
+
+}
+
+.title{
+  font-size: 24pt;
+  line-height: 28pt;
+  text-align: left;
+}
+
+#vol1mark{
+  width:4%;
+}
+
+#video{
+  width: 100%;
+  z-index: -100;
+  position: fixed;
+  right:0;
+  bottom:0;
+  min-width: 100%;
+  min-height: 100%;
+
+}
+
+.text{
+  text-align: center;
+  margin-top: 43%;
+  margin-bottom: 10%;
+
+}
+
+.footer{
+  width:100%;
+  height:auto;
+  margin-bottom: 0%;
+}
+
+.footer img{
+  width:100%;
+}

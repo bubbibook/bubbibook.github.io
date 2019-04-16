@@ -54,6 +54,10 @@ a{
   opacity:1;
 }
 
+#vol1mark{
+  width:4%;
+}
+
 .joshphoto{
   position: fixed;
   width: 100%;
