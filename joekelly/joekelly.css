@@ -52,7 +52,9 @@ h1{
 .navbar a:hover{
   color:red;
 }
-
+#vol1mark{
+  width:4%;
+}
 .bubbiradio2{
   text-align: center;
   margin-top: 8%;
@@ -61,7 +63,7 @@ h1{
 
 .bubbiradio2 img{
   width:450px;
-} 
+}
 .notefromjoe{
 margin-left: 30%;
 margin-top: 2%;

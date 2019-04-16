@@ -86,13 +86,17 @@ a{
   color:red;
 }
 
+#vol1mark{
+  width:4%;
+}
+
 .text a{
-  color:red;
+  color:navy;
   text-decoration: none;
 }
 
 .text a:hover{
-  color:navy;
+  color:black;
 }
 
 .footer{

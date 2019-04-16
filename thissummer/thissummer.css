@@ -40,6 +40,10 @@ a{
   opacity:1;
 }
 
+#vol1mark{
+  width:4%;
+}
+
 .title{
   font-size: 24pt;
   line-height: 28pt;

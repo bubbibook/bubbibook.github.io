@@ -50,6 +50,9 @@ a{
   color:red;
 }
 
+#vol1mark{
+  width:4%;
+}
 
   .center {
     background: rgba(0,0,0,0.15);

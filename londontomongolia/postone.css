@@ -49,6 +49,10 @@ body{
   color:#f1a09e;
 }
 
+#vol1mark{
+  width:4%;
+}
+
 hr{
   width: 45%;
   margin-top:8%;
