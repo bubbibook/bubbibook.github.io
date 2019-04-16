@@ -7,7 +7,7 @@ html, body {
 }
 
 body {
-  background-color: #f1a09e;
+  background-color: #a1cfff;
   font-family: 'Quicksand';
 }
 
@@ -54,44 +54,21 @@ h1{
   color:red;
 }
 
-.longstoryshort{
-margin-left: 43%;
-margin-top: 3%;
-}
-.longstoryshort img{
-  height:650px;
-}
-.longstoryshort img:hover{
-  transform: rotate(-25deg);
+#vol1mark{
+  width:4%;
 }
 
-.pokemon{
-margin-left: 30%;
-margin-top: 5%;
-margin-bottom: 5%;
+.agarden{
+  margin-left: 32%;
+  margin-right:15%;
+  margin-top: 5%;
 }
 
-.pokemon img{
-  height:450px;
-}
-
-.pokemon img:hover{
-  -webkit-animation:spin 0.5s linear ;
-    -moz-animation:spin 0.5s linear ;
-    animation:spin 0.5s linear ;
-}
-
-.erikasmusicjourney{
-  margin-left: 40%;
-
-}
-
-.erikasmusicjourney img{
-  height:475px;
-}
-
-.erikasmusicjourney img:hover{
-  transform: rotate(45deg);
+.agarden img{
+  height:500px;
+  -webkit-animation:spin 15s linear infinite;
+    -moz-animation:spin 15s linear infinite;
+    animation:spin 15s linear infinite;
 }
 
 .footer{
@@ -102,19 +79,6 @@ margin-bottom: 5%;
 .footer img{
   width:100%;
 }
-
-.joshisobsessed{
-  margin-left: 32%;
-  margin-right:15%;
-  margin-top: 5%;
-}
-.joshisobsessed img{
-  height:500px;
-  -webkit-animation:spin 15s linear infinite;
-    -moz-animation:spin 15s linear infinite;
-    animation:spin 15s linear infinite;
-}
-
 
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }

@@ -7,14 +7,14 @@ html, body {
 }
 
 body {
-  background-color: #f1a09e;
+  background-color: #a1cfff;
   font-family: 'Quicksand';
 }
 
 #logo{
   position:fixed;
   text-align: left;
-  margin-left: .5%;
+  margin-left: 2%;
   margin-top: 2%;
   z-index: 100;
 
@@ -55,6 +55,37 @@ h1{
 #vol1mark{
   width:4%;
 }
+
+.kikideesong{
+  text-align: center;
+  margin-bottom: 5%;
+
+}
+
+#kikidee{
+  width:40%;
+}
+
+.bubbiradio4{
+  text-align: center;
+  margin-bottom: 5%;
+
+}
+
+#bubbiradio4img{
+  width:40%;
+}
+
+.bubbiradio3{
+  text-align: center;
+  margin-bottom: 5%;
+
+}
+
+#bubbiradio3img{
+  width:40%;
+}
+
 .bubbiradio2{
   text-align: center;
   margin-top: 8%;
